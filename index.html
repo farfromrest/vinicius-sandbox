@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,15 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <h1>Todo APP</h1>
+      <form id="todo-form">
+        <label for="description">Description</label>
+        <input id="description" name="description" type="text" />
+        <button id="add-button">Add</button>
+      </form>
+      <ul id="todos"></ul>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
